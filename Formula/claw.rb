@@ -7,22 +7,22 @@ class Claw < Formula
   on_macos do
     on_arm do
       url "https://github.com/CloudBedrock/clawbreaker-releases/releases/download/v0.1.0/claw-0.1.0-darwin-arm64.tar.gz"
-      sha256 "ad5bcdf187a0ece00708732c621f117550120d4a7267e2b8c95d668ee4188a39"
+      sha256 "35bcdfaa3edd099b7663864c314f1ec6bcac6123147631ebefba50fa3b33ac01"
     end
     on_intel do
       url "https://github.com/CloudBedrock/clawbreaker-releases/releases/download/v0.1.0/claw-0.1.0-darwin-amd64.tar.gz"
-      sha256 "d207e1d314dfb9438bf6b9c2ccb156e4912e3a73a63b7aa44a390054e5d3b510"
+      sha256 "deff6ab2cd241f7381ba7d33c2465347d9546e5536bc82b78599f7fa130b49aa"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/CloudBedrock/clawbreaker-releases/releases/download/v0.1.0/claw-0.1.0-linux-arm64.tar.gz"
-      sha256 "9a034b13599b1d397794d92b446b713acfb94a49a392fc6071da1999ba468db4"
+      sha256 "f83a4ab34066d1dd6cf12a7a5140d994830f7268cb3cdad39e94ed92af00eb95"
     end
     on_intel do
       url "https://github.com/CloudBedrock/clawbreaker-releases/releases/download/v0.1.0/claw-0.1.0-linux-amd64.tar.gz"
-      sha256 "525657cdb453f510207e312964d5ce3946ba293fb0bf31e94d1581eb8591ebf3"
+      sha256 "2c80dbdff00240040bffe9a1f006562269722fedd34d81e394ae271b01dfb8f4"
     end
   end
 
