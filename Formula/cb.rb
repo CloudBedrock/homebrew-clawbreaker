@@ -1,28 +1,28 @@
 class Cb < Formula
   desc "CLI for Clawbreaker AI agent engine"
   homepage "https://clawbreaker.ai"
-  version "0.1.0"
+  version "0.3.1"
   license "Proprietary"
 
   on_macos do
     on_arm do
-      url "https://github.com/CloudBedrock/clawbreaker-releases/releases/download/v0.1.0/cb-0.1.0-darwin-arm64.tar.gz"
-      sha256 "020985c243e331736a0b5e5f8c31de98c4bff57497efbec82d4dea0f245f9896"
+      url "https://github.com/CloudBedrock/clawbreaker-releases/releases/download/v0.3.1/cb-0.3.1-darwin-arm64.tar.gz"
+      sha256 "c0259eb9c16d6c4e1306b9dd50ea3be093fb7538f0a5639a0f2fdc978540bd79"
     end
     on_intel do
-      url "https://github.com/CloudBedrock/clawbreaker-releases/releases/download/v0.1.0/cb-0.1.0-darwin-amd64.tar.gz"
-      sha256 "a7e16c134b19db3cd6e7ba175ae08668e9df8fe9f7992b17c20d0fcfa1e3a4bd"
+      url "https://github.com/CloudBedrock/clawbreaker-releases/releases/download/v0.3.1/cb-0.3.1-darwin-amd64.tar.gz"
+      sha256 "e5e1e47544c1f22217c27025445dfbea727d5093bbafb32594fe1b0c7fce0cfc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/CloudBedrock/clawbreaker-releases/releases/download/v0.1.0/cb-0.1.0-linux-arm64.tar.gz"
-      sha256 "450934690173b98812f923f0074decde67ac5ea6ad572d3e30fbc05f875f38cb"
+      url "https://github.com/CloudBedrock/clawbreaker-releases/releases/download/v0.3.1/cb-0.3.1-linux-arm64.tar.gz"
+      sha256 "aec2af6aa85503545bb8425324af87c2b0ca7f0efea1ca7e2658af06573254cf"
     end
     on_intel do
-      url "https://github.com/CloudBedrock/clawbreaker-releases/releases/download/v0.1.0/cb-0.1.0-linux-amd64.tar.gz"
-      sha256 "cc38febad7396d2d1b7ea1c3a0f90cbbbe57dcdc7bce0abd7f7f9e7076b254ee"
+      url "https://github.com/CloudBedrock/clawbreaker-releases/releases/download/v0.3.1/cb-0.3.1-linux-amd64.tar.gz"
+      sha256 "ef01a46d25f59c6653b4af062d48fb86ebbed326fffa3793c298ff0638fb2a7a"
     end
   end
 
@@ -31,6 +31,6 @@ class Cb < Formula
   end
 
   test do
-    assert_match "cb version", shell_output("#{bin}/cb --version")
+    assert_match "cb version", shell_output("\#{bin}/cb --version")
   end
 end
